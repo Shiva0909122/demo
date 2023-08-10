@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h5>form</h5>
+    <p>
+    <b>FORM</b>  is a HTML element to collect input data with containing interactive controls. It provides facilities to input
+        text, number, values, email, password, and control fields such as checkboxes, radio buttons, submits buttons,
+        etc. or in other words, form is a container that contains input elements, like text, email, number, radio
+        buttons, checkboxes, submit buttons, etc. Forms are generally used when you want to collect data from the user.
+        For example, a user wants to buy a bag online, so he/she has to first enter their shipping address in the
+        address form and then add their payment detail in the payment form to place an order.
+        </p>
+        <form>
+            <legend>Personal Details</legend>
+
+            <p>
+                <label>
+                    Salutation
+                    <br />
+                    <select name="salutation">
+                        <option>--None--</option>
+                        <option>Mr.</option>
+                        <option>Ms.</option>
+                        <option>Mrs.</option>
+                        <option>Dr.</option>
+                        <option>Prof.</option>
+                    </select>
+                </label>
+            </p>
+
+
+            <p>
+                <label>First name: <input name="firstName" /></label>
+            </p>
+
+
+            <p>
+                <label>Last name: <input name="lastName" /></label>
+            </p>
+
+
+            <p>
+                Gender :
+                <label><input type="radio" name="gender" value="male" /> Male</label>
+                <label><input type="radio" name="gender" value="female" /> Female</label>
+            </p>
+
+
+            <p>
+                <label>Email:<input type="email" name="email" /></label>
+            </p>
+
+
+            <p>
+                <label>Date of Birth:<input type="date" name="birthDate"></label>
+            </p>
+
+
+            <p>
+                <label>
+                    Address :
+                    <br />
+                    <textarea name="address" cols="30" rows="3"></textarea>
+                </label>
+            </p>
+
+
+            <p>
+                <button type="submit">Submit</button>
+            </p>
+
+
+        </form>
+</body>
+
+</html>
